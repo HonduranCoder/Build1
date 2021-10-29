@@ -6,6 +6,6 @@ describe("mathPower", () => {
 		const exponent = 3;
 		const answer = base * exponent;
 
-		expect(6).toEqual(6);
+		expect(answer).toEqual(6);
 	});
 });
